@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header */
+
+
+/* top */
+header .header_content .left_content a{
+    font-size: 20px;
+    padding: 20px ;
+}
+header .header_content .right_content a {
+    font-size: 20px;
+    padding: 20px;
+    width: 50px;
+}
+
+header .header_content span, header .header_content i{
+    transition: all .3s;
+}
+
+header .header_content .left_content a:hover span,header .header_content .right_content a:hover i{
+    color: #FF6961;
+}
+
+/* body */
+.header_body .navbar .navbar-brand {
+    font-size: 26px;
+    color: #0d369f;
+    display: flex;
+    align-items: center;
+}
+
+.header_body .collapse .nav-item .nav-link{
+    padding: 6px 0;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+.header_body .collapse .nav-item .nav-link::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: #EA6259;
+    transition: all .3s;
+}
+
+.header_body .collapse .nav-item.active .nav-link{
+    color: #EA6259;
+}
+
+.header_body .collapse .nav-item.active .nav-link::after{
+    width: 100%;
+}
+
+
+.header_body .menu_search .search_in {
+    background-color: unset;
+    border-radius: 50px;
+    padding: 10px 15px;
+
+}
+
+.header_body .collapse .menu_search .search_bt{
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: blue;
+    transition: all .3s
+    ;
+}
+
+header .header_body .collapse .bt_theme .icon_theme:first-child{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-43%);
+}
+
+header .header_body .collapse .bt_theme .icon_theme:last-child{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-52%);
+}
+
+header .header_body .navbar span {
+    transition: all .3s;
+}
+
+header .header_body .navbar a:hover span,.header_body .collapse .menu_search .search_bt:hover, .header_body .collapse .dropdown-menu .dropdown-item:hover {
+    color: #EA6259;
+}
+.header_body .collapse .nav-item:hover .nav-link::after{
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+
+/* menu side */
+header .menu_side {
+    position: fixed;
+    right: 0;
+    background-color: #0A0F1E;
+    border-radius: 10px 0 0 10px;
+    padding: 40px 15px 10px;
+    text-align: center;
+    color: #e6ebff;
+    z-index: 9;
+}
+
+header .menu_side .items{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+
+}
+
+header .menu_side .contact{
+    border-top: 3px solid whitesmoke;
+    padding-top: 30px;
+}
+
+/* cccc */
