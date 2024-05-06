@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Studious</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -15,10 +15,7 @@
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- (Optional) Use CSS or JS implementation -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
-    integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
   <!-- theme icon -->
   <link rel="stylesheet" href="./css/moon.css">
@@ -36,7 +33,7 @@
 
 <body>
   <header>
-    <div class="header_top d-flex">
+    <div class="header_top">
       <div class="container-fluid py-3 " style="background-color: #0A2B7F;">
         <div class="header_content d-flex justify-content-between align-items-center ">
           <div class="left_content">
@@ -64,8 +61,8 @@
         </div>
       </div>
     </div>
-    <div class="header_body " id="myHeader">
-      <nav class="navbar navbar-expand-lg bg-black py-4 px-3">
+    <div class="header_body" id="myHeaderTop">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand " href="#">
             <img class="logo me-1" src="./img/logo.png" alt="logo">
@@ -116,7 +113,7 @@
         </div>
       </nav>
     </div>
-    <div class="menu_side ">
+    <div class="menu_side " id="myHeaderSide">
       <div class="menu_content">
         <div class="items">
           <a href="#">
@@ -149,7 +146,7 @@
 
   </header>
 
-  <div class="carousel">
+  <section class="carousel">
     <div class="owl-carousel owl-theme ">
       <div class="item banner-top2 position-relative">
         <style>
@@ -164,7 +161,10 @@
             height: 90vh;
           }
         </style>
-        <h5 class="fs-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, similique. </h5>
+        <div class="carousel_title">
+          <h5>Master the Skills to Drive your Career</h5>
+          <button class="btn carousel_bt">Know More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
       </div>
       <div class="item banner-top3">
         <style>
@@ -179,22 +179,384 @@
             height: 90vh;
           }
         </style>
-        <h5>Studious is the best choice for everyone </h5>
+        <div class="carousel_title">
+          <h5>Studious is the best choice for everyone </h5>
+          <button class="btn carousel_bt">Know More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="box_class position-relative pe-4">
+    <div class="box_content container ">
+      <div class="loca">
+        <div class="row g-4 text-center">
+          <div class="col-3 ">
+            <div class="box_item bg-primary">
+              <i class="fas fa-cogs"></i>
+              <h4>Engineering & Architecture</h4>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="box_item bg-warning tranform">
+              <i class="fa-solid fa-book " style=" transform: skew(-10deg, -10deg) rotate(10deg);"></i>
+              <h4>Learning Management</h4>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="box_item bg-danger">
+              <i class="fa-solid fa-mug-saucer"></i>
+              <h4>Business & Management</h4>
+            </div>
+          </div>
+          <div class="col-3 ">
+            <div class="box_item bg-success">
+              <i class="fa-regular fa-hourglass-half"></i>
+              <h4>Artificial Intelligence</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="welcome text-center py-5">
+    <h2 class="main_title position-relative mb-5">Welcome to <span class="text-danger">Studious</span></h2>
+    <div class="welcome_content ">
+      <div class="container py-md-5 py-5">
+        <div class="row g-4 py-5">
+          <div class="col-4 welcome_item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div class="item_title my-3">
+              <h3 class="mb-4">Trending Courses</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+
+            </div>
+          </div>
+          <div class="col-4 welcome_item">
+            <i class="fa-solid fa-users"></i>
+            <div class="item_title my-3">
+              <h3 class="mb-4">Certified Teachers</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+
+            </div>
+          </div>
+          <div class="col-4 welcome_item">
+            <i class="fa-solid fa-book " style=" transform: skew(-10deg, -10deg) rotate(10deg);"></i>
+            <div class="item_title my-3">
+              <h3 class="mb-4">Books & Library</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="service py-5"
+    style="background-image: url(./img/bg3.jpg); background-position: bottom; background-repeat: no-repeat; background-size: cover;">
+    <div class="container ">
+      <div class="service_content py-5">
+        <div class="row ">
+          <div class="col-4"></div>
+          <div class="col-8">
+            <div class="row g-5 ps-5">
+              <div class="col-6 service_item ">
+                <div class="item_bg">
+                  <i class="fa fa-american-sign-language-interpreting"></i>
+                  <div class="service_title">
+                    <h5>Flexible Classes</h5>
+                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 service_item">
+                <div class="item_bg">
+                  <i class="fa fa-download"></i>
+                  <div class="service_title">
+                    <h5>Offline Mode</h5>
+                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 service_item ">
+                <div class="item_bg">
+                  <i class="fa fa-headphones"></i>
+                  <div class="service_title">
+                    <h5>Educator Help</h5>
+                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 service_item ">
+                <div class="item_bg">
+                  <i class="fa fa-play-circle"></i>
+                  <div class="service_title">
+                    <h5>Online Classes</h5>
+                    <p>Lorem ipsum dolor sit amet, dolor elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="number text-center py-5">
+    <div class="container">
+      <div class="top_title">
+        <h2 class="main_title position-relative mb-5">Strength in <span class="text-danger">Numbers</span></h2>
+        <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et<br>dolorum fuga.</p>
+      </div>
+      <div class="number_content row g-3 text-center py-5">
+        <div class="number_item col-3 ">
+          <p class="counter">6,300</p>
+          <p>LEARNERS & COUNTING</p>
+        </div>
+        <div class="number_item col-3">
+          <p class="counter">638</p>
+          <p>TOTAL COURSES</p>
+        </div>
+        <div class="number_item col-3">
+          <p class="counter">7,600</p>
+          <p>SUCCESSFUL STUDENTS</p>
+        </div>
+        <div class="number_item col-3">
+          <p class="counter">36</p>
+          <p>LANGUAGES</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="feedback text-center py-5">
+    <div class="container">
+      <div class="top_title">
+        <h2 class="main_title position-relative mb-5">Strength in <span class="text-danger">Numbers</span></h2>
+      </div>
+      <div class="feedback_content row g-4 my-3" style="background-color: #0a0f1e6c;">
+        <div class="col-4 my-4">
+          <div class="feedback_item">
+            <i class="fa fa-quote-left"></i>
+            <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+            <div class="infouser d-flex">
+              <img src="./img/testi2.jpg" alt="">
+              <div class="name_user">
+                <h4>Petey Cruis</h4>
+                <p>Caption Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 my-4 ">
+          <div class="feedback_item">
+            <i class="fa fa-quote-left"></i>
+            <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+            <div class="infouser d-flex">
+              <img src="./img/testi1.jpg" alt="">
+              <div class="name_user">
+                <h4>Molive Joe</h4>
+                <p>Caption Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 my-4">
+          <div class="feedback_item">
+            <i class="fa fa-quote-left"></i>
+            <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+            <div class="infouser d-flex">
+              <img src="./img/testi3.jpg" alt="">
+              <div class="name_user">
+                <h4>
+                  Paige Turner</h4>
+                <p>Caption Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intructor text-center py-5">
+    <div class="container">
+      <div class="top_title">
+        <h2 class="main_title position-relative mb-5">World Class <span class="text-danger">Instructors</span></h2>
+      </div>
+      <div class="intructor_content row g-4 my-3" style="background-color: #0a0f1e6c;">
+        <div class="col-3 my-4">
+          <div class="intructor_item">
+            <div class="intructor_img position-relative">
+              <img src="./img/team1.jpg" alt="">
+              <div class="hide_contact position-absolute">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+            </div>
+            <div class="teacher_info">
+              <h4>Olive Yew</h4>
+              <p>Teaches Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 my-4">
+          <div class="intructor_item">
+            <div class="intructor_img position-relative">
+              <img src="./img/team2.jpg" alt="">
+              <div class="hide_contact position-absolute">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+            </div>
+            <div class="teacher_info">
+              <h4>Aida Joe</h4>
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 my-4">
+          <div class="intructor_item">
+            <div class="intructor_img position-relative">
+              <img src="./img/team3.jpg" alt="">
+              <div class="hide_contact position-absolute">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+            </div>
+            <div class="teacher_info">
+              <h4>Teri Dac</h4>
+              <p>Teaches Skills</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 my-4">
+          <div class="intructor_item">
+            <div class="intructor_img position-relative">
+              <img src="./img/team4.jpg" alt="">
+              <div class="hide_contact position-absolute">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+            </div>
+            <div class="teacher_info">
+              <h4>Anton Bne</h4>
+              <p>Web Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact" style="padding: 70px 0;">
+    <div class="container">
+      <div class="contact_content py-5">
+        <div class="row align-items-center">
+          <div class="col-5">
+            <div class="contact_img">
+              <img src="./img/image.png" alt="">
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="contact_title">
+              <h3>Not Sure Where to Begin?<br>
+                Contact Now, We will Help you</h3>
+              <p>Consectetur adipiscing elit. Aliquam sit amet efficitur tortor.Uspendisse efficitur orci urna. In et
+                augue ornare, tempor massa in, luctus sapien.</p>
+              <button class="btn">Contact us</button>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </div>
   </div>
 
+<footer class="mt-4 " style="background-color: #060E1F;padding: 20px 0 0;">
+  <div class="container ">
+    <div class="footer_title bg-black w-75  mx-auto rounded-4" style="transform: translateY(-90px);">
+      <div class="row p-5 align-items-center">
+        <div class="col-6 w-50 ">
+          <h3>Subscribe Us to join our Community</h3>
+          <p>Newsletter</p>
+        </div>
+        <div class="col-6 w-50 ">
+          <form class="d-flex ">
+            <input type="text" placeholder="Enter your email">
+            <button class="bg-primary">Send</button>
+          </form>
+        </div>
+      </div>
 
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer_content ms-5">
+      <div class="row g-5">
+        <div class="col-2 footer_list">
+          <h5>ARCHIVES</h5>
+          <ul>
+            <li>
+              <i class="fa-solid fa-angles-right "></i><span>April 2021</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3 footer_list">
+          <h5>CATEGORIES</h5>
+          <ul>
+            <li><i class="fa-solid fa-angles-right"></i>Business</li>
+            <li><i class="fa-solid fa-angles-right"></i>Creative</li>
+            <li><i class="fa-solid fa-angles-right"></i>Design</li>
+            <li><i class="fa-solid fa-angles-right"></i>Food</li>
+            <li><i class="fa-solid fa-angles-right"></i>Industry</li>
+          </ul>
+        </div>
+        <div class="col-3 footer_contact">
+          <h5>CONTACT</h5>
+          <ul>
+            <li><i class="fa-regular fa-envelope"></i> info@example.com</li>
+            <li><i class="fa-solid fa-phone"></i> +44-000-888-999</li>
+            <li><i class="fa-solid fa-location-dot"></i>London, 235 Terry, 10001</li>
+          </ul>
+        </div>
+        <div class="col-4 footer_about pe-5">
+          <h5>ABOUT</h5>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google-plus-g"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="copyright p-2" style="background-color: #040A17;">
+    <div class="container text-center">
+      <p style="margin: 0;">© 2024 Studious. All Rights Reserved | WordPress Theme by <a href="https://w3layouts.com/">W3Layouts</a>.</p>
+    </div>
+  </div>
+</footer>
 
-
-
-
-
-
-
-
+<!-- back to top -->
+<a href="#" class="back_top cd-top text-replace js-cd-top">
+  <i class="fa fa-level-up"></i>
+</a>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -205,45 +567,71 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
 
-<!-- owl carousel -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="./js/owl.carousel.min.js"></script>
-<script>
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    // autoplay: true,
-    // autoplayTimeout: 1000,
-    // autoplayHoverPause: true,
-    margin: 10,
-    nav: false,
-    responsive: {
+  <!-- owl carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      // autoplay: true,
+      // autoplayTimeout: 1000,
+      // autoplayHoverPause: true,
+      margin: 10,
+      nav: false,
+      responsive: {
         0: {
-            items: 1
+          items: 1
         },
+      }
+    })
+  </script>
+
+  <!-- scroll -->
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var headerTop = document.getElementById("myHeaderTop");
+    var sticky = headerTop.offsetTop;
+
+    var headerSide = document.getElementById("myHeaderSide");
+    var sticky = headerSide.offsetTop;
+
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        headerTop.classList.add("stickybody");
+        headerSide.classList.add("stickyside");
+      } else {
+        headerTop.classList.remove("stickybody");
+        headerSide.classList.remove("stickyside");
+
+      }
     }
-})
-</script>
+  </script>
 
-<!-- scroll -->
-<script>
-window.onscroll = function () { myFunction() };
+  <!-- countup -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-}
-</script>
+    <!-- countup -->
+  <script src="./js/jquery.countup.min.js"></script>
 
+  <script>
+    $('.counter').countUp({
+      'time': 5000,
+      'delay': 10
+    });
 
-
+  </script>
+ <!-- backtotop -->
+ <script src="./js/util.js"></script>
+ <script src="./js/main.js"></script>
 
 </body>
 
