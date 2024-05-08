@@ -14,12 +14,10 @@ html a {
 
 /* top */
 header .header_content .left_content a {
-    font-size: 20px;
     padding: 20px;
 }
 
 header .header_content .right_content a {
-    font-size: 20px;
     padding: 20px;
     width: 50px;
 }
@@ -162,7 +160,7 @@ header .menu_side .contact {
 /* banner */
 .banner {
     background-image: url(../img/bg4.jpg);
-    height: 50vh;
+    height: 25vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
