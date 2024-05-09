@@ -101,6 +101,7 @@ header .header_body .collapse .bt_theme .icon_theme:last-child {
     left: 0;
     padding-left: 10px;
     transform: translate(-50%, -52%);
+    padding-left: 10px;
 }
 
 header .header_body .navbar span {

@@ -14,12 +14,16 @@ html a {
 
 /* top */
 header .header_content .left_content a {
-    padding: 20px;
+    padding:0 10px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 header .header_content .right_content a {
-    padding: 20px;
+    padding: 15px;
     width: 50px;
+    font-size: 13px;
+
 }
 
 header .header_content span,
@@ -38,7 +42,7 @@ header .header_body {
     background-color: black;
     color: #e6ebff;
     z-index: 9;
-    padding: 24px 16px;
+    padding: 10px 16px;
 }
 
 .header_body .navbar .navbar-brand {
@@ -65,14 +69,9 @@ header .header_body {
     transition: all .3s;
 }
 
-.header_body .collapse .nav-item.active .nav-link {
+.header_body .collapse .nav-item .active {
     color: #EA6259;
 }
-
-.header_body .collapse .nav-item.active .nav-link::after {
-    width: 100%;
-}
-
 
 .header_body .menu_search .search_in {
     background-color: unset;
@@ -94,6 +93,7 @@ header .header_body .collapse .bt_theme .icon_theme:first-child {
     top: 50%;
     left: 0;
     transform: translate(-50%, -43%);
+    padding-left: 10px;
 }
 
 header .header_body .collapse .bt_theme .icon_theme:last-child {
@@ -101,6 +101,7 @@ header .header_body .collapse .bt_theme .icon_theme:last-child {
     top: 50%;
     left: 0;
     transform: translate(-50%, -52%);
+    padding-left: 10px;
 }
 
 header .header_body .navbar span {
@@ -113,15 +114,11 @@ header .header_body .navbar a:hover span,
     color: #EA6259;
 }
 
-.header_body .collapse .nav-item:hover .nav-link::after {
-    width: 100%;
-}
-
 .stickybody {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0 !important;
+    padding: 0 15px !important;
     z-index: 9999;
 }
 
@@ -170,6 +167,14 @@ header .menu_side .contact {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.banner .hoco{
+    color: rgba(255, 255, 255, 0.718);
+    transition: all .5s;
+}
+.banner .hoco:hover{
+    color: white;
 }
 
 /* component */

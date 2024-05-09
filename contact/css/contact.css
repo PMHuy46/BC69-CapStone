@@ -92,6 +92,7 @@ header .header_body .collapse .bt_theme .icon_theme:first-child {
     top: 50%;
     left: 0;
     transform: translate(-50%, -43%);
+    padding-left: 10px;
 }
 
 header .header_body .collapse .bt_theme .icon_theme:last-child {
@@ -99,6 +100,7 @@ header .header_body .collapse .bt_theme .icon_theme:last-child {
     top: 50%;
     left: 0;
     transform: translate(-50%, -52%);
+    padding-left: 10px;
 }
 
 header .header_body .navbar span {
@@ -115,7 +117,7 @@ header .header_body .navbar a:hover span,
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0 !important;
+    padding: 0 15px !important;
     z-index: 9999;
 }
 
