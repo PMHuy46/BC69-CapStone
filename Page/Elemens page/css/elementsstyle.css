@@ -232,7 +232,7 @@ a{
 .component .link_hoco {
     border: 1px solid transparent;
     color: #ce0829;
-    transition: all .5s;
+    transition: all .3s;
 }
 .component .link_hoco:hover{
     border-color: #65A442;
@@ -241,7 +241,7 @@ a{
 
 .component_code .d-flex ,.component_code .p-2
 {
-    border: 1px solid whitesmoke;
+    border: 1px solid #35393B;
 }
 
 .live_content .btco{
@@ -260,13 +260,12 @@ a{
     font-size:56px;
     font-weight: 300;
     line-height: 1.2;
-    color: #060606;
-    border: 1px solid white;
+    color: white;
 }
 
 .component .component_code .p_style{
     font-size: 25px;
-    color: #07070742;
+    color: white;
 }
 
 .component .breadcrumb .breadcrumb-item.hoco:hover a{
@@ -274,13 +273,36 @@ a{
 }
 
 .component .class_color{
-    color: #043679;
+    color: #5291B7;
 }
 
-
-
 .component .name_color{
-    color: #ce0829;
+    color: #D7565D;
+}
+
+.breadcrumb .breadcrumb-item.active{
+    color: rgba(255, 255, 255, 0.376);
+}
+
+.card_content .card-body{
+    background-color: #1a1c1d;
+    border-radius: 0 0 5px 5px;
+}
+
+.component_code .list-group .list-group-item{
+    background-color : #1a1c1d93; color: #A1998D;
+   
+}
+
+.component_code .table th {
+    background-color : #1A1C1D; color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.component_code .table td{
+    background-color: rgba(0, 0, 0, 0.318) ;
+    color: white;
 }
 
 /* footer */
@@ -380,3 +402,4 @@ footer .footer_content .footer_about i {
     visibility: visible;
     opacity: 1;
 }
+

@@ -157,7 +157,7 @@ header .menu_side .contact {
 /* banner */
 .banner {
     background-image: url(../img/bg4.jpg);
-    height: 25vh;
+    height: 210px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,7 +237,7 @@ margin: auto;}
 }
 
 .teacher .teacher_content .teacher_item{
-    background-color: rgba(0, 0, 0, 0.096);
+    background-color: #0a0f1e10;
     padding: 20px ;
     border-radius: 15px;
 }
