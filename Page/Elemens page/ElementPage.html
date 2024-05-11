@@ -20,12 +20,14 @@
   <link rel="stylesheet" href="./css/moon.css">
   <link rel="stylesheet" href="./css/sun.css">
 
-  <link href="https://{{cdn}}/prismjs@v1.x/themes/prism.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism.min.css"
+    integrity="sha512-/mZ1FHPkg6EKcxo0fKXF51ak6Cr2ocgDi5ytaTBjsQZIH/RNs6GF6+oId/vPe3eJB836T36nXwVh/WBl/cWT4w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- main css -->
   <link rel="stylesheet" href="./css/elementsstyle.css">
 
-  
+
 </head>
 
 <body class="bg-dark text-light">
@@ -98,10 +100,10 @@
             </form>
 
             <div class="bt_theme position-relative">
-              <span class="icon_theme opacity-0">
+              <span class="dark_icon">
                 <i class="gg-moon "></i>
               </span>
-              <span class="icon_theme ">
+              <span class="light_icon">
                 <i class="gg-sun"></i>
               </span>
             </div>
@@ -112,12 +114,10 @@
     </div>
     <div class="menu_side" id="myHeaderSide">
       <div class="menu_content">
-        <div class="items">
-          <div class="backhide">
-            <i class="fa-solid fa-angles-right "></i>
-          </div>
+        <div class="back_items">
+          <i class="fa-solid fa-angles-right stand"></i>
         </div>
-        <div class="contact">
+        <div class="contact_items">
           <div class="item">
             <a href="#">
               <i class="fa-solid fa-arrow-left"></i>
@@ -149,7 +149,8 @@
         <h2>About Us</h2>
         <a href="../../homeindex.html" class="hoco">Home</a>
         <span>
-          <i class="fa-solid fa-angles-right " style="font-size: 8px; transform: translateY(-1px);"></i> Elements Page</span>
+          <i class="fa-solid fa-angles-right " style="font-size: 8px; transform: translateY(-1px);"></i> Elements
+          Page</span>
       </div>
     </div>
   </section>
@@ -228,7 +229,7 @@
           <div>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb ps-2 py-2" style="margin: 5px 0; background-color: #141618; ">
-                <li class="breadcrumb-item active"  aria-current="page">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
               </ol>
             </nav>
             <nav aria-label="breadcrumb">
@@ -276,7 +277,7 @@
         </div>
       </div>
       <!-- 4 -->
-      <div class="component_item pt-4"> 
+      <div class="component_item pt-4">
         <h3 class="text-primary fw-medium">Dividers</h3>
         <p style="color: #07070742;">Indicate the current page’s location within a navigational hierarchy that
           automatically adds separators via CSS.</p>
@@ -306,14 +307,15 @@
         </div>
       </div>
       <!-- 5 -->
-      <div class="component_item pt-4"> 
+      <div class="component_item pt-4">
         <h3 class="tai">Cards</h3>
         <div class="card_content component_code">
           <div class="card" style="width: 18rem; background: #35393B;">
             <img src="./img/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-primary">Card title</h5>
-              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's
+              <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of
+                the card's
                 content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -659,7 +661,8 @@
             <h3 class="text-primary fw-medium tai py-4">Active items</h3>
             <div class="Lists_content component_code">
               <ul class="list-group">
-                <li class="list-group-item active bg-primary border-white text-white" aria-current="true">Cras justo odio</li>
+                <li class="list-group-item active bg-primary border-white text-white" aria-current="true">Cras justo
+                  odio</li>
                 <li class="list-group-item">Dapibus ac facilisis in</li>
                 <li class="list-group-item">Morbi leo risus</li>
                 <li class="list-group-item">Porta ac consectetur ac</li>
@@ -772,9 +775,9 @@
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td >Mark</td>
-                <td >Otto</td>
-                <td >@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
@@ -784,9 +787,9 @@
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td >Larry</td>
-                <td >the Bird</td>
-                <td >@twitter</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
               </tr>
             </tbody>
           </table>
@@ -847,9 +850,9 @@
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td >Mark</td>
-                <td >Otto</td>
-                <td >@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
@@ -859,9 +862,9 @@
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td >Larry</td>
-                <td >the Bird</td>
-                <td >@twitter</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
               </tr>
             </tbody>
           </table>
@@ -1034,11 +1037,12 @@
           <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" placeholder="Email address" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" placeholder="Email address" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label" >Password</label>
+              <label for="exampleInputPassword1" class="form-label">Password</label>
               <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -1078,7 +1082,8 @@
             <div class="form-group row">
               <label for="staticEmail" class="col-sm-2 col-form-label ">Email</label>
               <div class="col-sm-10">
-                <input type="text" readonly class="form-control-plaintext text-white" id="staticEmail" value="email@example.com">
+                <input type="text" readonly class="form-control-plaintext text-white" id="staticEmail"
+                  value="email@example.com">
               </div>
             </div>
             <div class="form-group row">
@@ -1226,17 +1231,35 @@
   <script src="./js/util.js"></script>
   <script src="./js/main.js"></script>
 
-  <script src="https://{{cdn}}/prismjs@v1.x/components/prism-core.min.js"></script>
-  <script src="https://{{cdn}}/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-core.min.js"
+    integrity="sha512-x0aNx8s5fNTSk7iaTiSuUtz6vbT7gtGjk+Dotp17u4TmUEbJUwNMUFKxMBlnMQ1+N8E5exPHvRcF1yoxJ8b/iA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <script>
     $(document).ready(function () {
-      $(".backhide").click(function () {
-        $(".menu_side").toggleClass("hide");
+      $(".back_items").click(function () {
+        $(".menu_side").toggleClass("hide_item");
+        $(".back_items").toggleClass("show_item");
       });
     });
   </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".light_icon").click(function () {
+        $(".light_icon").toggleClass("hide_theme");
+        $(".dark_icon").toggleClass("show_theme");
+      });
+      $(".dark_icon").click(function () {
+        $(".light_icon").toggleClass("hide_theme");
+        $(".dark_icon").toggleClass("show_theme");
+      });
+    });
+  </script>
+
 </body>
 
 </html>

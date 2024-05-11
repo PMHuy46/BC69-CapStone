@@ -32,7 +32,7 @@
 </head>
 
 <body class="bg-dark text-light">
-  <!-- header -->
+  <!-- headerasdas -->
   <header>
     <div class="header_top">
       <div class="container-fluid py-3 " style="background-color: #0A2B7F;">
@@ -103,11 +103,11 @@
             </form>
 
             <div class="bt_theme position-relative">
-              <span class="icon_theme ">
-                <i class="gg-moon opacity-0"></i>
+              <span class="dark_icon">
+                <i class="gg-moon "></i>
               </span>
-              <span class="icon_theme ">
-                <i class="gg-sun "></i>
+              <span class="light_icon">
+                <i class="gg-sun"></i>
               </span>
             </div>
 
@@ -115,14 +115,12 @@
         </div>
       </nav>
     </div>
-    <div class="menu_side " id="myHeaderSide">
+    <div class="menu_side" id="myHeaderSide">
       <div class="menu_content">
-        <div class="items">
-          <a href="#">
-            <i class="fa-solid fa-angles-right"></i>
-          </a>
+        <div class="back_items">
+          <i class="fa-solid fa-angles-right stand"></i>
         </div>
-        <div class="contact">
+        <div class="contact_items">
           <div class="item">
             <a href="#">
               <i class="fa-solid fa-arrow-left"></i>
@@ -634,15 +632,33 @@
       'time': 5000,
       'delay': 10
     });
-
   </script>
+
   <!-- backtotop -->
   <script src="./js/util.js"></script>
   <script src="./js/main.js"></script>
 
-  
+  <script>
+    $(document).ready(function () {
+      $(".back_items").click(function () {
+        $(".menu_side").toggleClass("hide_item");
+        $(".back_items").toggleClass("show_item");
+      });
+    });
+  </script>
 
-
+  <script>
+    $(document).ready(function () {
+      $(".light_icon").click(function () {
+        $(".light_icon").toggleClass("hide_theme");
+        $(".dark_icon").toggleClass("show_theme");
+      });
+      $(".dark_icon").click(function () {
+        $(".light_icon").toggleClass("hide_theme");
+        $(".dark_icon").toggleClass("show_theme");
+      });
+    });
+  </script>
 
 </body>
 

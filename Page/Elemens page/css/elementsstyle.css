@@ -88,20 +88,32 @@ header .header_body {
     transition: all .3s;
 }
 
-header .header_body .collapse .bt_theme .icon_theme:first-child {
+header .header_body .collapse .bt_theme .dark_icon {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translate(-50%, -43%);
     padding-left: 10px;
+    cursor: pointer;
+    opacity: 0;
 }
 
-header .header_body .collapse .bt_theme .icon_theme:last-child {
+header .header_body .collapse .bt_theme .light_icon{
     position: absolute;
     top: 50%;
     left: 0;
     transform: translate(-50%, -52%);
     padding-left: 10px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+header .header_body .collapse .bt_theme .light_icon.hide_theme{
+    opacity: 0;
+}
+
+header .header_body .collapse .bt_theme .dark_icon.show_theme{
+    opacity: 1;
 }
 
 header .header_body .navbar span {
@@ -129,30 +141,35 @@ header .menu_side {
     right: 0;
     background-color: #0A0F1E;
     border-radius: 10px 0 0 10px;
-    padding: 40px 10px 10px;
+    padding: 30px 10px 10px;
     text-align: center;
     color: #e6ebff;
     z-index: 9;
     cursor: pointer;
+    transition: all .5s;
 }
 
-header .menu_side .items {
-    width: 70px;
-    height: 50px;
+header .menu_side .back_items {
     text-align: center;
-
+    padding:10px 15px ;
+    transition: all .5s;
 }
 
-header .menu_side.hide{
-    width: 0;
-}
-
-header .menu_side .contact {
+header .menu_side .contact_items {
     border-top: 3px solid whitesmoke;
     padding-top: 30px;
 }
 
+header .menu_side .back_items.show_item{
+    display: inline-block;
+    transform: translateX(-90px);
+    background-color: #0A0F1E;
+    border-radius: 50%;
+}
 
+header .menu_side.hide_item{
+    transform: translateX(95px);
+}
 
 .stickyside {
     position: fixed;
@@ -163,7 +180,7 @@ header .menu_side .contact {
 /* banner */
 .banner {
     background-image: url(../img/bg4.jpg);
-    height: 232px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
