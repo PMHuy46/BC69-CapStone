@@ -107,12 +107,12 @@
 
                         <div class="bt_theme position-relative">
                             <span class="dark_icon">
-                              <i class="gg-moon "></i>
+                                <i class="gg-moon "></i>
                             </span>
                             <span class="light_icon">
-                              <i class="gg-sun"></i>
+                                <i class="gg-sun"></i>
                             </span>
-                          </div>
+                        </div>
 
                     </div>
                 </div>
@@ -165,61 +165,54 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact" id="contact">
+    <!-- address -->
+    <section class="address m-5 pb-5">
         <div class="container">
-            <div class="contact_container">
-                <div class="contact_info">
-                    <h3 class="font-weight-bold mb-md-5 mb-4">Get in touch with us</h3>
-                    <div class="contact_details">
-                        <div class="contact_item">
-                            <div class="contact_left">
-                                <i class="fa fa-globe"></i>
-                            </div>
-                            <div class="contact_right">
-                                <h4>Company Address</h4>
-                                <p>10001, 5th Avenue, 12202 street, London.</p>
-                            </div>
-                        </div>
-
-                        <div class="contact_item">
-                            <div class="contact_left">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="contact_right">
-                                <h4>Call Us</h4>
-                                <p><a href="tel:+1(21) 234 4567">+1(21) 234 4567</a></p>
+            <div class="row m-auto">
+                <div class="col-auto col-xl-2"></div>
+                <div class="col-12 col-xl-4">
+                    <h2 class="fw-bold mb-5">Get in touch with us</h2>
+                    <div class="contact_item mb-4">
+                        <div class="d-flex align-content-center">
+                            <i class="fa fa-globe pe-3" style="color: #FF6960;"></i>
+                            <div class="address_title">
+                                <p>Company Address</p>
+                                <a href="#">10001, 5th Avenue, 12202 street, London.</a>
                             </div>
                         </div>
-
-                        <div class="contact_item">
-                            <div class="contact_left">
-                                <i class="fa fa-envelope-open"></i>
-                            </div>
-                            <div class="contact_right">
-                                <h4>Email Us</h4>
-                                <p>
-                                    <a href="mailto:example@mail.com" class="mail">example@mail.com</a>
-                                </p>
+                    </div>
+                    <div class="contact_item mb-4">
+                        <div class="d-flex align-content-center">
+                            <i class="fa fa-phone pe-3" style="color: #FF6960;"></i>
+                            <div class="address_title">
+                                <p>Call Us</p>
+                                <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
                             </div>
                         </div>
-
-                        <div class="contact_item">
-                            <div class="contact_left">
-                                <i class="fa fa-headphones"></i>
+                    </div>
+                    <div class="contact_item mb-4">
+                        <div class="d-flex align-content-center">
+                            <i class="fa fa-envelope-open pe-3" style="color: #FF6960;"></i>
+                            <div class="address_title">
+                                <p>Email Us</p>
+                                <a href="mailto:example@mail.com">example@mail.com</a>
                             </div>
-                            <div class="contact_right">
-                                <h4>Customer Support</h4>
-                                <p>
-                                    <a href="mailto:info@support.com" class="mail">info@support.com</a>
-                                </p>
+                        </div>
+                    </div>
+                    <div class="contact_item mb-4">
+                        <div class="d-flex align-content-center">
+                            <i class="fa fa-headphones pe-3" style="color: #FF6960;"></i>
+                            <div class="address_title">
+                                <p>Customer Support</p>
+                                <a href="mailto:info@support.com">info@support.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="contact_map">
+                <div class="col-12 col-xl-5 ">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d635432.7245980062!2d-0.101599!3d51.528642!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2spl!4v1715013874844!5m2!1sen!2spl"
-                        width="100%" height="400" style="border: 0" allowfullscreen="" loading="lazy"
+                        width="100%" height="350" style="border: 0" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -227,29 +220,44 @@
     </section>
 
     <!-- question -->
-    <section class="question">
-        <div class="question_container">
-            <div class="question_title text-center mb-5 pb-sm-4">
-                <h2 class="title">We will Answer all your <span>Questions</span></h2>
+    <section class="question text-center mb-5 pb-5">
+        <div class="container">
+            <div class="top_title">
+                <h2 class="main_title position-relative mb-5 pb-2">We will Answer all your <span
+                        class="text-danger">Questions</span></h2>
             </div>
-            <div class="question_content">
-                <div class="question_left">
-                    <img src="./img/contact.jpg" alt="" />
+
+            <div class="row mb-5 pb-5">
+                <div class="row">
+                    <div class="col-auto col-xl-1"></div>
+                    <div class="col-12 col-xl-4 mx-5 p-3">
+                        <img src="./img/contact.jpg" alt="" class="w-100 rounded-1">
+                    </div>
+                    <div class="col-12 col-xl-5 mt-7 w-50 pt-4">
+                        <form>
+                            <div class="mb-3">
+                                <input class="form-control form-control-lg py-2" type="text" placeholder="Your Name*"
+                                    aria-label=".form-control-lg example">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1"
+                                    placeholder="Your Email*">
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control form-control-lg" type="text" placeholder="Subject*"
+                                    aria-label=".form-control-lg example">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="4"
+                                    placeholder="Type your message here*"></textarea>
+                            </div>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="question_right">
-                    <form action="">
-                        <input type="text" placeholder="Your Name*" />
-                        <input type="text" placeholder="Your Email*" />
-                        <input type="text" placeholder="Subject*" />
-                        <textarea rows="4" placeholder="Type your message here*"></textarea>
-                        <button class="btn btn-style btn-style-secondary mt-sm-3">
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
+
     </section>
+
 
     <!-- footer -->
     <footer class="mt-4 " style="background-color: #060E1F;padding: 20px 0 0;">
@@ -377,18 +385,18 @@
         });
     </script>
 
-<script>
-    $(document).ready(function () {
-      $(".light_icon").click(function () {
-        $(".light_icon").toggleClass("hide_theme");
-        $(".dark_icon").toggleClass("show_theme");
-      });
-      $(".dark_icon").click(function () {
-        $(".light_icon").toggleClass("hide_theme");
-        $(".dark_icon").toggleClass("show_theme");
-      });
-    });
-  </script>
+    <script>
+        $(document).ready(function () {
+            $(".light_icon").click(function () {
+                $(".light_icon").toggleClass("hide_theme");
+                $(".dark_icon").toggleClass("show_theme");
+            });
+            $(".dark_icon").click(function () {
+                $(".light_icon").toggleClass("hide_theme");
+                $(".dark_icon").toggleClass("show_theme");
+            });
+        });
+    </script>
 </body>
 
 </html>
