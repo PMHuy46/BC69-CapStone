@@ -227,9 +227,8 @@ header .menu_side.hide_item{
 
 /* box content */
 .box_class {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
     z-index: 3;
-    padding-bottom: 70px;
 }
 
 .box_class .box_item {
@@ -252,8 +251,8 @@ header .menu_side.hide_item{
     transition: all .3s;
 }
 
-.box_class .box_item h4 {
-    color: black;
+.box_class .box_item h4:hover {
+    color: rgba(0, 0, 0, 0.89);
 } 
 
 /* welcome */
@@ -551,7 +550,7 @@ color: #EA6259;
 }
 
 .address .contact_item .address_title a{
-    color: #070707;
+    color: rgba(255, 255, 255, 0.439);
     font-size: 17px;
     letter-spacing: 0.5px;
     font-weight: 400;

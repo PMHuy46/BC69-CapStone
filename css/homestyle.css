@@ -227,9 +227,8 @@ header .menu_side.hide_item {
 
 /* box content */
 .box_class {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
     z-index: 3;
-    padding-bottom: 70px;
 }
 
 .box_class .box_item {
@@ -253,7 +252,7 @@ header .menu_side.hide_item {
 }
 
 .box_class .box_item:hover h4{
-    color: black;
+    color: #0a0f1e;
 }
 
 /* welcome */
