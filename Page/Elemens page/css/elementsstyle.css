@@ -374,6 +374,13 @@ footer .footer_content li {
     padding: 10px 0;
 }
 
+footer .footer_content li span,
+footer .footer_content li a {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+
 footer .footer_content .footer_list i {
     font-size: 10px;
     line-height: 10px;
@@ -382,17 +389,25 @@ footer .footer_content .footer_list i {
 
 footer .footer_content .footer_contact i {
     font-size: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 footer .footer_content .footer_about i {
-    font-size: 18px;
+    font-size: 15px;
     padding: 12px;
     margin-right: 5px;
     background-color: #12192A;
     border-radius: 50%;
+    color: rgba(255, 255, 255, 0.881);
+    transition: all .5s;
+    cursor: pointer;
 }
 
+footer .footer_content li:hover span,
+footer .footer_content li:hover a,
+footer .footer_content .footer_about i:hover {
+    color: rgba(255, 255, 255, 0.575);
+}
 
 /* backtotop */
 .back_top {

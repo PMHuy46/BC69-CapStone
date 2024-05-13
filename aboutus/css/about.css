@@ -283,21 +283,19 @@ margin: auto;}
     transform: translateY(50px);
     transition: all .5s;
 }
-.teacher .teacher_content .teacher_item:hover .hide_contact{
-    transform: translateY(0);
-}
-.teacher .teacher_content .teacher_item:hover .teacher_info h4{
-color: #EA6259;
-}
+
 
 .teacher .teacher_content .teacher_item .teacher_img .hide_contact i{
-    width: 40px;
-    height: 40px ;
-    line-height: 40px;
-    margin: 0 10px;
+    font-size: 13px;
+    width: 30px;
+    height: 30px ;
+    line-height: 30px;
+    margin: 0 5px;
     border-radius: 50%;
-    background-color: #0a0f1e4f;
+    background-color: #0a0f1e;
     transition: all .5s;
+    color: #315bc3;
+    cursor: pointer;
 }
 
 .teacher .teacher_content .teacher_item h4{
@@ -306,9 +304,19 @@ color: #EA6259;
     transition: all .5s;
 }
 
-
 .teacher .teacher_content .teacher_item p{
     font-size: 13px;
+}
+
+.teacher .teacher_content .teacher_item:hover .hide_contact{
+    transform: translateY(0);
+}
+.teacher .teacher_content .teacher_item:hover .teacher_info h4{
+color: #EA6259;
+}
+.teacher .teacher_content .teacher_item .teacher_img .hide_contact i:hover{
+    background-color: #0a0f1ec9;
+    color: #315ac3d4;
 }
 
 /* mission */
@@ -370,6 +378,13 @@ footer .footer_content li {
     padding: 10px 0;
 }
 
+footer .footer_content li span,
+footer .footer_content li a {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+
 footer .footer_content .footer_list i {
     font-size: 10px;
     line-height: 10px;
@@ -378,15 +393,24 @@ footer .footer_content .footer_list i {
 
 footer .footer_content .footer_contact i {
     font-size: 20px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 footer .footer_content .footer_about i {
-    font-size: 18px;
+    font-size: 15px;
     padding: 12px;
     margin-right: 5px;
     background-color: #12192A;
     border-radius: 50%;
+    color: rgba(255, 255, 255, 0.881);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+footer .footer_content li:hover span,
+footer .footer_content li:hover a,
+footer .footer_content .footer_about i:hover {
+    color: rgba(255, 255, 255, 0.722);
 }
 
 /* video popup */
