@@ -249,6 +249,11 @@ header .menu_side.hide_item {
 .box_class .box_item h4 {
     font-size: 24px;
     padding: 0 30px;
+    transition: all .3s;
+}
+
+.box_class .box_item:hover h4{
+    color: black;
 }
 
 /* welcome */
@@ -289,7 +294,16 @@ header .menu_side.hide_item {
 }
 
 .welcome .welcome_content .welcome_item p {
-    padding: 0 55px;
+    padding: 0 45px;
+    color: rgba(255, 255, 255, 0.549);
+}
+
+.welcome .welcome_content .welcome_item h3{
+    transition: all .3s;
+}
+
+.welcome .welcome_content .welcome_item:hover h3{
+    color: #EA6259;
 }
 
 /* service */

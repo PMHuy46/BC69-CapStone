@@ -68,7 +68,7 @@ header .header_body {
     transition: all .3s;
 }
 
-.header_body .collapse .nav-item.active .nav-link {
+.header_body .collapse .nav-item .active {
     color: #EA6259;
 }
 
@@ -233,7 +233,7 @@ header .menu_side.hide_item{
 }
 
 .box_class .box_item {
-    padding: 30px 20px;
+    padding: 30px 30px;
     border-radius: 10px;
 }
 
@@ -248,8 +248,13 @@ header .menu_side.hide_item{
 
 .box_class .box_item h4 {
     font-size: 24px;
-    padding: 0 30px;
+    padding: 0 px; 
+    transition: all .3s;
 }
+
+.box_class .box_item h4 {
+    color: black;
+} 
 
 /* welcome */
 .welcome .main_title {
@@ -283,15 +288,33 @@ header .menu_side.hide_item{
     bottom: -15px;
 }
 
-.welcome .welcome_content .welcome_item i {
-    font-size: 50px;
-    padding: 20px 10px;
+.welcome .welcome_content .welcome_item .i12 {
+    font-size: 30px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.068);
+    padding: 20px;
+    color: #0d369f;
 }
+.welcome .welcome_content .welcome_item .i3 {
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.068);
+    padding: 13px 23px;
+    color: #0d369f;
 
+}
 .welcome .welcome_content .welcome_item p {
     padding: 0 55px;
 }
 
+.welcome .welcome_content .welcome_item h3{
+transition: all .3s;
+}
+
+.welcome .welcome_content .welcome_item h3:hover{
+    color: #EA6259;
+}
 /* service */
 .service .service_content .service_item .item_bg {
     background-color: black;

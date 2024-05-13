@@ -248,11 +248,53 @@ header .menu_side.hide_item{
     background-color: green;
 }
 
+.boxinfo  .boxinfo_item .item_title h3{
+    transition: all .3s;
+}
+
+.boxinfo  .boxinfo_item .item_title p{
+    color: rgba(255, 255, 255, 0.431);
+}
+
+.boxinfo  .boxinfo_item:hover h3{
+    color: #EA6259;
+}
+
 .teacher .bg p{
     width: 75%;
 margin: auto;}
 
 /* teacher */
+.teacher .main_title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.teacher .main_title::before {
+    content: "";
+    background: silver;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    left: -20px;
+    bottom: -8px;
+
+}
+
+.teacher .main_title::after {
+    content: "";
+    background: silver;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    left: 20px;
+    bottom: -15px;
+}
 
 .teacher  .container{
     width: 65%;
